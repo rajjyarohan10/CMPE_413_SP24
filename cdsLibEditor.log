@@ -1,0 +1,24 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.8 - CAT37 06/21/2022 12:56 (cpgsrv12) $
+\o Sub version:		sub-version  s266 
+\o Arguments:		-display :1 -mpssession virtuoso3515866 -mpshost ite375pc23.cs.umbc.edu -mpsversion 6.18 -namespace CDBA -cdslib /afs/umbc.edu/users/r/a/rajjyap1/home/cmpe413/cds.lib 
+\o Working Directory:	ite375pc23.cs.umbc.edu:/afs/umbc.edu/users/r/a/rajjyap1/home/cmpe413
+\o 64-bit offsets
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		5.9.1
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "analogLib"
+\a nrResizeWindow(cdsLibEditor list(283 862 500 400))
+\a nrResizeWindow(cdsLibEditor list(1954 1018 500 400))
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrResizeWindow(cdsLibEditor list(1824 974 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 13 0)
+\o Active cell: 13 0 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 13 0 "gpdk045")
+\a nrListItemAction(cdsLibEditor->mainTable 13 1)
+\o Active cell: 13 1 ""
+\a nrListItemRename(cdsLibEditor->mainTable, 13 1 "/umbc/software/design_kits2/gpdk045_v_6_0/gpdk045")
+\a nrListItemAction(cdsLibEditor->mainTable 14 0)
+\o Active cell: 14 0 ""
+\a cdsLibEditor->fileSaveButton->value = t
+\a exit(0)

@@ -1,0 +1,15 @@
+ncsim: 15.20-s035: (c) Copyright 1995-2017 Cadence Design Systems, Inc.
+TOOL:	ncsim	15.20-s035: Started on Feb 09, 2024 at 14:29:56 EST
+ncsim
+    -input ./vhdl/inverter/inverter_ncsim.run
+    -messages
+    -cdslib cds.lib
+    -hdlvar hdl.var
+    inverter_test
+
+Loading snapshot vhdl.inverter_test:test .................... Done
+ncsim> run 90 ns
+Ran until 90 NSexut
+ncsim: *E,TCLERR: invalid command name "exut".
+ncsim> exit
+TOOL:	ncsim	15.20-s035: Exiting on Feb 09, 2024 at 14:47:33 EST  (total: 00:30:52)
